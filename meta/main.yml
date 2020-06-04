@@ -1,6 +1,6 @@
 
 galaxy_info:
-    role_name: disable-qxl
+    role_name: kypo-disable-qxl
     author: Kamil Andoniadis
     description: Disable loading of kernel module qxl.
     licence: MIT
