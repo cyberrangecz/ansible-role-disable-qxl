@@ -22,6 +22,6 @@ Example of the simplest QXL module disabling.
 
 ```yml
 roles:
-    - role: kypo-disable-qxl
+    - role: disable-qxl
       become: yes
 ```
