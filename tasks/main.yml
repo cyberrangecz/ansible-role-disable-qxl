@@ -5,6 +5,6 @@
   failed_when: false
   register: disable_qxl_lsmod_output
   
-- include: disable-qxl.yml
+- include_tasks: disable-qxl.yml
   when: not disable_qxl_lsmod_output.rc
 
