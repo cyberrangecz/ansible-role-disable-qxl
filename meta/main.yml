@@ -1,14 +1,14 @@
 galaxy_info:
-    role_name: disable-qxl
-    author: KYPO Team
-    description: Disable loading of kernel module qxl.
-    licence: MIT
-    min_ansible_version: 2.3.3
-    platforms:
-        - name: Debian
-          versions:
-              - all
-        - name: Ubuntu
-          versions:
-              - all
-
+  role_name: disable-qxl
+  author: KYPO Team (Masaryk University) and CyberSecurity Hub
+  description: Disable loading of kernel module qxl.
+  company: Masaryk University and CyberSecurity Hub, z.s.
+  licence: MIT
+  min_ansible_version: '2.14'
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
